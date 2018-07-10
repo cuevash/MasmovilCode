@@ -1,5 +1,5 @@
 // server.js
-const app = require('.app')
+const app = require('./app')
 
 // Listen in env given port
 const port = process.env.port || 5000
