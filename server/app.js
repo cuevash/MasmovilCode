@@ -12,9 +12,6 @@ app.use(express.static('static'))
 //
 // ROUTES
 //
-app.get('/', (req, res) => {
-  res.send('Hello World!!')
-})
 
 // List
 app.get('/api/phones', (req, res) => {
